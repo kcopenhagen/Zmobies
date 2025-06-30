@@ -1,0 +1,34 @@
+{
+    "name": "PlayerControls",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "89125c57-3b71-42e4-b21e-a20108fbba29",
+            "actions": [
+                {
+                    "name": "Touch",
+                    "type": "Value",
+                    "id": "b3f2b1d4-a5b0-44bb-a50d-5ec63ee2a46b",
+                    "expectedControlType": "Touch",
+                    "processors": "",
+                    "interactions": "Hold",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a2eddc59-c49e-4c33-86dc-ca434cb27dce",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
