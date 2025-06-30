@@ -2005,7 +2005,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Once a Zmob has spawned drag it over to a healthy green thing to infect
     it then push the resulting sick one back to your main base to collect a brain
-    and body part.
+    and body part. Pinch to zoom, two finger drag to pan.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3473,7 +3473,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdde2eb88f008264e9801c60ff4aaf23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zoomSpeed: 0.005
+  zoomSpeed: 0.002
+  panSpeed: 0.005
   minZoom: 3
   maxZoom: 30
 --- !u!1 &524713147 stripped
