@@ -93,6 +93,7 @@ public class DieSpawnCostManager : MonoBehaviour
             lockIcon.SetActive(false);
         else
             Debug.LogWarning($"{gameObject.name} missing lockIcon reference.");
+        dieSpawnCostTextBox.SetActive(true);
 
     }
 }

@@ -80,7 +80,7 @@ public class Spawner : MonoBehaviour
                 if (thoughtRect == null)
                     Debug.Log("No thought rect");
                 mover.GetComponent<CircleWander>().SetDirectionChangeInterval(thoughtRect.rect.width * boxWidth2DecisionTimeFactor);
-
+                mover.GetComponent<CircleWander>().StartWandering();
                 List<DieSettings> sourceDice = dieSpawner.GetDiceOfSource(source);
                 mover.AddDice(sourceDice);
 

@@ -1862,7 +1862,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Touch your main base to begine spawning Zmobs.
+  m_text: Touch your main base to begin spawning Zmobs.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3473,7 +3473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdde2eb88f008264e9801c60ff4aaf23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zoomSpeed: 0.002
+  zoomSpeed: 0.004
   panSpeed: 0.005
   minZoom: 3
   maxZoom: 30
