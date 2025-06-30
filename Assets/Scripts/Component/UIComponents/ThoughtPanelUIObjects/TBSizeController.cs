@@ -11,9 +11,9 @@ public class TBSizeController : MonoBehaviour
     [SerializeField] TextMeshProUGUI spawnEfficiency;
 
     private float wMin = 100f;
-    private float wMax = 900f;
+    private float wMax = 1200f;
     private float hMin = 100f;
-    private float hMax = 900f;
+    private float hMax = 1200f;
 
     private readonly float boxWidth2DecisionTimeFactor = 1f / 200f;
     private readonly float boxHeight2SpawnTimeFactor = 1f / 100f;
