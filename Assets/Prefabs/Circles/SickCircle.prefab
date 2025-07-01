@@ -195,9 +195,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8e0611b9b44b144eadfc7a1f1b7038b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathChance: 0.05
-  viewDist: 0
+  deathChance: 0
   myDice: []
+  reviveColor: {r: 1, g: 1, b: 1, a: 1}
+  speed: 0
 --- !u!114 &-1707378785736772004
 MonoBehaviour:
   m_ObjectHideFlags: 0

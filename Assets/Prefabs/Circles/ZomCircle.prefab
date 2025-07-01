@@ -195,7 +195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 072ba3b899945704fbc99c6ac53451b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathChance: 0.03
+  deathChance: 0
   myDice: []
   reviveColor: {r: 1, g: 1, b: 1, a: 1}
   speed: 0

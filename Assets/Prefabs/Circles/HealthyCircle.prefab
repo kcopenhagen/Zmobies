@@ -171,8 +171,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathChance: 0.05
-  viewDist: 0
   myDice: []
+  reviveColor: {r: 1, g: 1, b: 1, a: 1}
+  speed: 0
 --- !u!114 &6780293523013644629
 MonoBehaviour:
   m_ObjectHideFlags: 0
