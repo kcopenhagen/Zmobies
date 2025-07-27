@@ -80,8 +80,10 @@ public class DoorCostManager : MonoBehaviour
         {
             lockIcon.SetActive(true);
         }
-        if (doorSpawner != null)
+        if (doorSpawner != null && source != "Sickness" && source != "Healthy")
+        {
             doorSpawner.SetActive(false);
+        }
     }
 
 

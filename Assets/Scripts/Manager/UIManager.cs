@@ -162,20 +162,17 @@ public class UIManager : MonoBehaviour
     public void ClearSaveData()
     {
         tutorialManager.ResetProgress();
-
         //Destroy dice.
         List<GameObject> usedDice = dieSpawner.GetUsedDice();
         foreach (GameObject die in usedDice)
         {
             dieSpawner.TrashDie(die);
         }
-        
         //Relock die buttons.
         DieSpawnCostManager[] allDieCosts = FindObjectsByType<DieSpawnCostManager>(
             FindObjectsInactive.Include, FindObjectsSortMode.None);
         foreach (DieSpawnCostManager dice in allDieCosts)
             dice.RelockButton();
-        
         //Relock doors.
         DoorCostManager[] allDoorCosts = FindObjectsByType<DoorCostManager>(
             FindObjectsInactive.Include, FindObjectsSortMode.None);
@@ -184,11 +181,13 @@ public class UIManager : MonoBehaviour
             if (door.Source != "MainBase")
                 door.RelockDoor();
         }
-        
         //Reset currency.
         CurrencyManager.Instance.SetBodies(0);
         CurrencyManager.Instance.SetBrains(0);
+
         SaveManager.ClearSaveFile();
+        LevelManager.Instance.SetLevel(0);
+
         welcomeScreen.SetActive(true);
         zmobieThoughts.SetActive(false);
     }

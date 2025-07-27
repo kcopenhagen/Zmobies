@@ -451,6 +451,34 @@ PrefabInstance:
       propertyPath: source
       value: SicknessStorage
       objectReference: {fileID: 0}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1814166485}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: IncreaseSpawnEff
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SizeEfficiencyManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7204396559138766204, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -466,6 +494,34 @@ PrefabInstance:
     - target: {fileID: 9077216675582307510, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
       propertyPath: m_text
       value: Sickness
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1814166485}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: IncreaseProcEff
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SizeEfficiencyManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -665,7 +721,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &74028490
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2185,6 +2241,17 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1363085478}
   m_SourcePrefab: {fileID: 100100000, guid: 5c61cd7dd1706b446ab8345c6d5b079b, type: 3}
+--- !u!114 &339950540 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8034352704064454057, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+  m_PrefabInstance: {fileID: 1052956604}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c03d4048a378aaa428304a64b19c4de1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &352424486
 GameObject:
   m_ObjectHideFlags: 0
@@ -9539,6 +9606,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 931703573837965707, guid: 2f5dc1ef2139ebf43981eea529e738ba, type: 3}
   m_PrefabInstance: {fileID: 559035367}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1018638558 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8034352704064454057, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+  m_PrefabInstance: {fileID: 1674622744}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c03d4048a378aaa428304a64b19c4de1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1034041306
 GameObject:
   m_ObjectHideFlags: 0
@@ -9888,6 +9966,34 @@ PrefabInstance:
       propertyPath: source
       value: Door1Storage
       objectReference: {fileID: 0}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 339950540}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: IncreaseSpawnEff
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SizeEfficiencyManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7204396559138766204, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -9907,6 +10013,34 @@ PrefabInstance:
     - target: {fileID: 9077216675582307510, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
       propertyPath: m_text
       value: Door One
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 339950540}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: IncreaseProcEff
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SizeEfficiencyManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14915,6 +15049,34 @@ PrefabInstance:
       propertyPath: source
       value: Door2Storage
       objectReference: {fileID: 0}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1018638558}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: IncreaseSpawnEff
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SizeEfficiencyManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7204396559138766204, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -14934,6 +15096,34 @@ PrefabInstance:
     - target: {fileID: 9077216675582307510, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
       propertyPath: m_text
       value: Door two
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1018638558}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: IncreaseProcEff
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SizeEfficiencyManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15421,6 +15611,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2cd69cd14c9056e4bad6dd758682c9d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1814166485 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8034352704064454057, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+  m_PrefabInstance: {fileID: 54204506}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c03d4048a378aaa428304a64b19c4de1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1856342168
@@ -16460,6 +16661,34 @@ PrefabInstance:
       propertyPath: source
       value: Door3Storage
       objectReference: {fileID: 0}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2018689225}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: IncreaseSpawnEff
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SizeEfficiencyManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957090832320531864, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7204396559138766204, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -16479,6 +16708,34 @@ PrefabInstance:
     - target: {fileID: 9077216675582307510, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
       propertyPath: m_text
       value: Door three
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2018689225}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: IncreaseProcEff
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SizeEfficiencyManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078389321815202633, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16893,6 +17150,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1999051695}
   m_CullTransparentMesh: 1
+--- !u!114 &2018689225 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8034352704064454057, guid: 3278f81917e1ae54eadaa1a7142c9947, type: 3}
+  m_PrefabInstance: {fileID: 1924023423}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c03d4048a378aaa428304a64b19c4de1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2026842564
 PrefabInstance:
   m_ObjectHideFlags: 0

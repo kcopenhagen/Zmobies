@@ -49,7 +49,7 @@ public class HealthySpawner : MonoBehaviour
             mover.GetComponent<CircleWander>().SetDirectionChangeInterval(procTime);
             mover.GetComponent<CircleWander>().StartWandering();
 
-            mover.PartsValue = UIManager.Instance.LevelTracker;
+            mover.PartsValue = UIManager.Instance.LevelTracker/2;
             if (mover.PartsValue == 0)
             {
                 mover.PartsValue = 1;

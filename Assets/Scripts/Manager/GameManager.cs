@@ -19,12 +19,14 @@ public class GameManager : MonoBehaviour
             return;
         }
         Instance = this;
-        
-        DontDestroyOnLoad(gameObject);
+
     }
 
     public ObjectPool GetHealthyPool => healthyPool;
     public ObjectPool GetSickPool => sickPool;
-    
 
+    private void OnDisable()
+    {
+        Debug.Log("Game manager disabled");
+    }
 }

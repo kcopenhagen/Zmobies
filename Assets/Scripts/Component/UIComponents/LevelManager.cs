@@ -5,6 +5,8 @@ using TMPro;
 
 public class LevelManager : MonoBehaviour
 {
+    public static LevelManager Instance;
+
     [SerializeField] List<GameObject> levels = new();
     [SerializeField] Transform healthyPanel;
     [SerializeField] HealthySpawner healthySpawner;
@@ -13,7 +15,13 @@ public class LevelManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI healthyButtonText;
     [SerializeField] TBSizeController healthyTBSizeController;
     private DieSpawner dieSpawner;
-    
+
+    private void Awake()
+    {
+     
+        if (Instance == null) Instance = this;
+        else Destroy(gameObject);
+    }
 
     private void Start()
     {
